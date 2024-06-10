@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV News - Pop Culture News</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS for Soft Green Shades -->
+    <style>
+        body {
+            background-color: #e9f7e5;
+            color: #2c5f2d;
+        }
+        .navbar {
+            background-color: #78c257;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #e9f7e5 !important;
+        }
+        .card {
+            background-color: #f1f8f4;
+            border-color: #c2e6cc;
+        }
+        .card-title, .card-text {
+            color: #2c5f2d;
+        }
+        .btn-primary {
+            background-color: #6fbf4b;
+            border-color: #6fbf4b;
+        }
+        .btn-primary:hover {
+            background-color: #5aa73a;
+            border-color: #5aa73a;
+        }
+        .list-group-item {
+            background-color: #f1f8f4;
+            color: #2c5f2d;
+        }
+    </style>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-star"></i> PopCultureNews</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="music.html"><i class="fas fa-music"></i> Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="celebrity.html"><i class="fas fa-user"></i> Celebrity</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="movies.html"><i class="fas fa-film"></i> Movies</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tv.html"><i class="fas fa-tv"></i> TV <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <h1 class="mb-4">TV News</h1>
+        <div class="row">
+            <!-- Main Content Area -->
+            <div class="col-lg-9">
+                <div class="card mb-3">
+                    <img src="https://i.pinimg.com/564x/ee/4e/84/ee4e841857a9fa1b6ad47be1d7bf4d06.jpg" class="card-img-top" alt="tv news image">
+                    <div class="card-body">
+                        <h5 class="card-title">Old cartoons went viral on TikTok.</h5>
+                        <p class="card-text">From Simpsons to South Park.i.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="https://i.pinimg.com/564x/ba/14/32/ba1432aabbd8464298d9d0aae389fb70.jpg" class="card-img-top" alt="tv news image">
+                    <div class="card-body">
+                        <h5 class="card-title">TV shows of all times</h5>
+                        <p class="card-text">Our most beloved heroes on list.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5.fit_scale.size_760x427.v1582751026.png" class="card-img-top" alt="tv news image">
+                    <div class="card-body">
+                        <h5 class="card-title">Netflix: good or bad?</h5>
+                        <p class="card-text">Replacements, remakes, repeat.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar Area -->
+            <div class="col-lg-3">
+                <h2 class="mb-3">Trending TV Shows</h2>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item">Trending TV Show 1</li>
+                    <li class="list-group-item">Trending TV Show 2</li>
+                    <li class="list-group-item">Trending TV Show 3</li>
+                </ul>
+                <h2 class="mb-3">Genres</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Drama</li>
+                    <li class="list-group-item">Comedy</li>
+                    <li class="list-group-item">Reality</li>
+                    <li class="list-group-item">Documentary</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
